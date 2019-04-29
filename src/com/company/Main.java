@@ -6,5 +6,13 @@ public class Main {
 	// write your code here
 //        System.out.print("ddd");
 
+        /**
+         * 几个快捷键
+         * psvm main方法
+         * for for循环
+         * sout System.out.print();
+         */
+
+
     }
 }
