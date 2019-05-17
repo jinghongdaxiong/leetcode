@@ -1,5 +1,9 @@
 package com.company;
 
+import com.company.algorithms.TwoSum;
+
+import java.util.Arrays;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -12,7 +16,10 @@ public class Main {
          * for for循环
          * sout System.out.print();
          */
-
-
+        TwoSum twoSum = new TwoSum();
+        int[] arr = new int[]{2,4,7,5};
+        int tmp = 9;
+        int[] result = twoSum.twoSum(arr,tmp);
+        System.out.println(Arrays.toString(result));
     }
 }
